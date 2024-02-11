@@ -7,7 +7,7 @@ function getHTML(image: string) {
             <head>
                 <meta property="fc:frame" content="vNext" />
                 <meta property="fc:frame:image" content="${image}" />
-                <meta property="fc:frame:image:apect_ratio" content="1:1" />
+                <meta property="fc:frame:image:aspect_ratio" content="1:1" />
                 <meta property="fc:frame:button:1" content="Another Frog, Ribbit" />
                 <meta property="fc:frame:post_url" content="https://frame.flyfrogs.xyz/api/post" />
             </head>

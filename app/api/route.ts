@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from 'next'
+import type { NextApiResponse } from 'next'
 
 function getHTML(image: string) {
     return `
@@ -16,9 +16,9 @@ function getHTML(image: string) {
     `
 }
 
-export async function POST(req: NextApiRequest, res: NextApiResponse) {
+export async function POST(req: Request, res: NextApiResponse) {
   const tokenId = Math.floor(Math.random() * 10000);
-  const imageUrl = `https://ipfs.io/ipfs/QmTubGm6aKcjgTutgk7whbhXKeW42dHQmdXwp4GbbWxtTF/flyfrog${randomImageNumber}.png`;
+  const imageUrl = `https://ipfs.io/ipfs/QmTubGm6aKcjgTutgk7whbhXKeW42dHQmdXwp4GbbWxtTF/flyfrog${tokenId}.png`;
 
   const html = getHTML(imageUrl);
 

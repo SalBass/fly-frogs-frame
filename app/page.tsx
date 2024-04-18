@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className="relative flex place-items-center">
         <Image
-          src={`https://ipfs.io/ipfs/QmTubGm6aKcjgTutgk7whbhXKeW42dHQmdXwp4GbbWxtTF/flyfrog${tokenId}.png`}
+          src={`https://flyfrogs.nance.app/images/${tokenId}.png`}
           alt={`Fly Frog ${tokenId}`}
           width={600}
           height={600}

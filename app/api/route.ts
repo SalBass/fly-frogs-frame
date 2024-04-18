@@ -18,7 +18,7 @@ function getHTML(image: string) {
 
 export async function POST(req: Request) {
   const tokenId = Math.floor(Math.random() * 10000);
-  const imageUrl = `https://ipfs.io/ipfs/QmTubGm6aKcjgTutgk7whbhXKeW42dHQmdXwp4GbbWxtTF/flyfrog${tokenId}.png`;
+  const imageUrl = `https://flyfrogs.nance.app/images/${tokenId}.png`;
 
   const html = getHTML(imageUrl);
 

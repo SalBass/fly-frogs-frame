@@ -5,9 +5,9 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'ipfs.io',
+                hostname: 'flyfrogs.nance.app',
                 port: '',
-                pathname: '/ipfs/**',
+                pathname: '/images/**',
             }
         ]
     }

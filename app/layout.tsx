@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://ipfs.io/ipfs/QmTubGm6aKcjgTutgk7whbhXKeW42dHQmdXwp4GbbWxtTF/flyfrog0.png',
+        url: 'https://flyfrogs.nance.app/images/0.png',
         width: 600,
         height: 600,
       }
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:image': 'https://ipfs.io/ipfs/QmTubGm6aKcjgTutgk7whbhXKeW42dHQmdXwp4GbbWxtTF/flyfrog0.png',
+    'fc:frame:image': 'https://flyfrogs.nance.app/images/0.png',
     'fc:frame:image:aspect_ratio': '1:1',
     'fc:frame:button:1': 'Show Me a Frog, Ribbit',
     'fc:frame:post_url': 'https://frame.flyfrogs.xyz/api'
